@@ -1,3 +1,3 @@
-# Tutoriel
+# Tutoriel: Quelles sont les différences entre une liste et un tuple : pourquoi et comment les utiliser ?
 
 Les listes...
