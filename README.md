@@ -1,8 +1,8 @@
 # Tutoriel: Quelles sont les différences entre une liste et un tuple : pourquoi et comment les utiliser ?
 
-Établir le contexte de la problématique d'affaires ou technique menant au tutoriel
-Identifier un problème, un enjeu, un besoin de performance, une situation spécifique, une expérience de stage, etc
-Nommer les connaissances préalables
+# Établir le contexte de la problématique d'affaires ou technique menant au tutoriel
+- Identifier un problème, un enjeu, un besoin de performance, une situation spécifique, une expérience de stage, etc
+- Nommer les connaissances préalables
 Bâtir un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
 Présenter de façon structurée et illustrer le contenu du tutoriel
 Indiquer les bonnes pratiques et astuces pour la manipulation efficace des données
