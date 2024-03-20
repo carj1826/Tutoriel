@@ -8,7 +8,7 @@ Pour ce tutoriel, les conaissances préalables nécessaires sont:
 - Une compréhension des concepts de variables, de types de données et de structures de contrôle serait également bénéfique.
   
 ## Bâtir un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
-Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de client, leur lise d'employé et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite fcailement y avoir accès. 
+Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de client, leur lise d'employé et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. 
 
 
 
