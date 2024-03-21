@@ -30,7 +30,8 @@ Liste[0]="Client5"
 print(Liste)
 
 #Tentative de modification d'un élément du tuple
-#Tuple[0]="Client5" #Cela va créer une erreur; TypeError: 'tuple' object does not support item assignment
+#Tuple[0]="Client5" #Cela va créer une erreur; TypeError: 'tuple' object
+does not support item assignment
 ``` 
 Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). 
 
