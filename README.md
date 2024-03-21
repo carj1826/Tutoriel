@@ -8,11 +8,23 @@ Pour ce tutoriel, les conaissances préalables nécessaires sont:
 - Une compréhension des concepts de variables, de types de données et de structures de contrôle serait également bénéfique.
   
 ## Bâtir un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
-Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de client, leur lise d'employé et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. 
+Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de clients, leur lise d'employés et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. Par exemple, la compagnie peut elle même créer une liste ou un tuple pour stocker sa liste de client:
 
+``` Python 
+#Création du tuple
+Tuple = ("Client1","Client2","Client3","Client4")
 
+#Création de la liste
+Liste = ["Client1","Client2","Client3","Client4"]
+```
+Les données sont maintenant stocké en liste et en tuple ce qui permet à la compagnie de manipuler ses données quand elle en a besoin. 
 
 ## Présenter de façon structurée et illustrer le contenu du tutoriel
+Il y a plusieurs différences entre une liste et un tuple et plusieurs façon pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [] alors que les tuples sont défini avec des parenthèse (). 
+Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables ce qui veut dire qu'on ne peut pas les modifiés après leurs création. 
+
+
+
 - Indiquer les bonnes pratiques et astuces pour la manipulation efficace des données
 - Assurer la répétabilité du contenu : une personne ayant suivi le tutoriel devrait reconnaître le contexte, savoir appliquer le contenu, pouvoir déterminer si c'est un succès
   
@@ -26,3 +38,6 @@ Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie do
 - Souligner la valeur personnelle au lecteur du tutoriel
 - Indiquer les prochaines notions ou étapes d'apprentissage dans la perspective de parcours
 
+
+Sources:
+https://www.docstring.fr/glossaire/tuple/#:~:text=La%20diff%C3%A9rence%20fondamentale%20entre%20les,pouvez%20pas%20modifier%20leurs%20%C3%A9l%C3%A9ments.
