@@ -10,7 +10,7 @@ Pour ce tutoriel, les conaissances préalables nécessaires sont:
 ## Bâtir un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
 Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de client, leur lise d'employé et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. 
 
-```
+``` Python 
 #Création du tuple
 Tuple = (1,2,3,4)
 
@@ -28,7 +28,7 @@ print(Liste)
 # Accéder aux éléments dans la liste et le tuple
 print("Éléments de la liste :", Liste[0])    # Affichera :10
 print("Éléments du tuple :", Tuple[0])      # Affichera : 1
-
+```
 
 ## Présenter de façon structurée et illustrer le contenu du tutoriel
 - Indiquer les bonnes pratiques et astuces pour la manipulation efficace des données
