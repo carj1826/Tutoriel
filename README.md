@@ -21,7 +21,7 @@ Les données sont maintenant stocké en liste et en tuple ce qui permet à la co
 
 ## Présenter de façon structurée et illustrer le contenu du tutoriel
 Il y a plusieurs différences entre une liste et un tuple et plusieurs façon pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [] alors que les tuples sont défini avec des parenthèse (). 
-Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables ce qui veut dire qu'on ne peut pas les modifiés après leurs création. Voici un exemple pour représenter cette deuxième différence:
+Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifiés après leurs création. Voici un exemple pour représenter cette deuxième différence:
 
 ``` Python
 #Modification d'un élément de la liste
@@ -33,8 +33,8 @@ print(Liste)
 #Tuple[0]="Client5" #Cela va créer une erreur; TypeError: 'tuple' object
 #does not support item assignment
 ``` 
-Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). 
-
+Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code.
+La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. 
 
 - Indiquer les bonnes pratiques et astuces pour la manipulation efficace des données
 - Assurer la répétabilité du contenu : une personne ayant suivi le tutoriel devrait reconnaître le contexte, savoir appliquer le contenu, pouvoir déterminer si c'est un succès
