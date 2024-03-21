@@ -15,3 +15,5 @@ print(Liste)
 # Accéder aux éléments dans la liste et le tuple
 print("Éléments de la liste :", Liste[0])    # Affichera :10
 print("Éléments du tuple :", Tuple[0])      # Affichera : 1
+
+#On peut aussi
