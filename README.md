@@ -45,7 +45,7 @@ print("Éléments du tuple :", Tuple[1])      # Affichera : Client2
 ```
 
 Maintenant que la différence entre les listes et les tuples et leurs utilisation est expliqué voici des bonnes pratiques et astuces pour la manipulation efficace des données:
-1. 
+#1. Utilisez des noms de variables significatifs pour se retrouver plus facilement dans son code. S'il y a plusieurs liste ou tuples dans un code, les identifiez selon ce que contient la liste peut rendre la manipulation des données plus simple. 
 
 
 - Assurer la répétabilité du contenu : une personne ayant suivi le tutoriel devrait reconnaître le contexte, savoir appliquer le contenu, pouvoir déterminer si c'est un succès
