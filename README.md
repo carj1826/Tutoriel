@@ -63,6 +63,7 @@ Maintenant que la différence entre les listes et les tuples et leurs utilisatio
 - Utilisez des tuples pour des données qui ne doivent pas être accidentellement modifié.
   
 ## Transférer les connaissances à d'autres contextes pouvant bénéficier du contenu du tutoriel par des cas d'utilisation ou des illustrations
+Une façon d'utiliser les tuples est de les utiliser comme clées d'un dictionnaire. Un dictionnaire est une autre structure de donnée que ne sera pas abordé en profondeur dans ce tutoriel. Voici un exemple ou l'on veut avoir accès aux notes de différents étudiants dans différentes matières. 
 
 ``` Python
 #Exemple 1
@@ -80,11 +81,12 @@ Notes[('Joany', 'RH')]=85
 print("Note de Joany en RH:", Notes[('Joany', 'RH')])
 #Affichera: 85
 ```
+Premièrement, il faut créer un dictionnaire en utilisant des accolades {} et en prenant des tuples comme clées du dictionnaire. Ici un exemple de tuple est ('Joany', 'Finance') et sa valeur est de 90. Les tuples offrent l'avantage de pouvoir représenter des paires de données uniques, ce qui les rend utiles dans ce cas. Ensuite, pour avoir accès aux notes on utilise les tuples pour afficher la note. Finalement, on peut ajouter de nouvelles notes lorsque les examens sont corrigés en ajoutant un nouveau tuple avec sa valeur au dictionnaire. 
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
 - Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussés pour pouvoir bien manipuler les données.
-- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas présentés dans ce tutoriel, mais qui sont très utiles pour la manipulation de données. 
+- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliqué dans ce tutoriel, mais qui sont très utiles pour la manipulation de données. 
 
 ## Synthétiser le contenu du tutoriel
 - Revenir brièvement sur la problématique d'origine
