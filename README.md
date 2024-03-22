@@ -102,6 +102,10 @@ Commandes_liste[Index_Joany][1].append("Agenda")
 print("Commandes des clients sous forme de listes :")
 for commande in Commandes_liste:
     print(commande)
+# Affichera: 
+# ['Joany', ['Stylo', 'Cartable', 'Agenda'], 10]
+# ['Eve', ['Agenda', 'Stylo'], 15]
+# ['Jade', ['Agenda', 'Surligneur', 'Calculatrice'], 20]
 ```
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
