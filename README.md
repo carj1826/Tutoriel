@@ -43,7 +43,7 @@ print(Liste)    #Affichera: ['Client5', 'Client2', 'Client3', 'Client4', 'Client
 #Tuple.append("Client6") #Cela va encore créer une erreur; AttributeError: 'tuple' object
                             # has no attribute 'append'
 ``` 
-Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code. C'est la même chose pour l'ajout d'un élément. Dans la liste on peut facilement le faire avec l'attribut .append alors que ça crée une erreur pour le tuple. 
+Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code. C'est la même chose pour l'ajout d'un élément. Dans la liste, on peut facilement le faire avec l'attribut .append qui va ajouter "Client6" à la fin, alors que ça crée une erreur pour le tuple. 
 
 La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifier fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importantes qui ne doit pas être modifié, alors on utilise un tuple.
 
@@ -64,9 +64,11 @@ Maintenant que la différence entre les listes et les tuples et leurs utilisatio
   
 ## Transférer les connaissances à d'autres contextes pouvant bénéficier du contenu du tutoriel par des cas d'utilisation ou des illustrations
 
+
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
-
-
+Voici quelques limites du tutoriel:
+- Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussés pour pouvoir bien manipuler les données.
+- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas présentés dans ce tutoriel, mais qui sont très utiles pour la manipulation de données. 
 
 ## Synthétiser le contenu du tutoriel
 - Revenir brièvement sur la problématique d'origine
