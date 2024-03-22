@@ -26,4 +26,40 @@ print(Liste)    #Affichera: ['Client5', 'Client2', 'Client3', 'Client4', 'Client
 print("Éléments de la liste :", Liste[0])    # Affichera :Client5
 print("Éléments du tuple :", Tuple[1])      # Affichera : Client2
 
-#On peut aussi
+#Exemple 1
+# Création d'un dictionnaire qui contient les notes des étudiants
+Notes = { ('Joany', 'Finance'):90,
+          ('Eve', 'RH'):85,
+          ('Jade', 'Marketing'):80}
+
+# Avoir accès aux notes des étudiants
+print("Note de Joany en Finance:", Notes[('Joany', 'Finance')])
+#Affichera: 90
+
+#Ajouter une nouvelle note
+Notes[('Joany', 'RH')]=85
+print("Note de Joany en RH:", Notes[('Joany', 'RH')])
+#Affichera: 85
+
+#Exemple 2
+#Données sur les commandes des clients sous forme de tuple
+#(Nom de client, Commande, Coût)
+Commandes_des_clients = (("Joany", ["Stylo", "Cartable"],10),
+             ('Eve',["Agenda", "Stylo"],15),
+             ('Jade',["Agenda", "Surligneur", "Calculatrice"],20 ))
+
+#Convertir les tuples en listes
+Commandes_liste = [list(commande) for commande in Commandes_des_clients]
+
+#Ajouter un nouvel article à la commande de Joany
+Index_Joany = [i for i, (nom, _, _) in enumerate(Commandes_liste) if nom == "Joany"][0]
+Commandes_liste[Index_Joany][1].append("Agenda")
+
+# Afficher les commandes modifiées sous forme de listes
+print("Commandes des clients sous forme de listes :")
+for commande in Commandes_liste:
+    print(commande)
+# Affichera:
+# ['Joany', ['Stylo', 'Cartable', 'Agenda'], 10]
+# ['Eve', ['Agenda', 'Stylo'], 15]
+# ['Jade', ['Agenda', 'Surligneur', 'Calculatrice'], 20]
