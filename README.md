@@ -27,11 +27,20 @@ Deuxièmement, la différence qui vient déterminer quel structure est la plus a
 #Modification d'un élément de la liste
 Liste[0]="Client5"
 #Afficher le résultat du changement
-print(Liste)
+print(Liste)  #Affichera: ['Client5', 'Client2', 'Client3', 'Client4']
 
 #Tentative de modification d'un élément du tuple
 #Tuple[0]="Client5" #Cela va créer une erreur; TypeError: 'tuple' object
 #does not support item assignment
+
+#Ajout d'un élément dans la liste
+Liste.append("Client6")
+#Afficher le résultat de l'ajout
+print(Liste)    #Affichera: ['Client5', 'Client2', 'Client3', 'Client4', 'Client6']
+
+#Tentative d'ajout d'un élément dans le tuple
+#Tuple.append("Client6") #Cela va encore créer une erreur; AttributeError: 'tuple' object
+                            # has no attribute 'append'
 ``` 
 Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code.
 La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifier fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importantes qui ne doit pas être modifié, alors on utilise un tuple.
