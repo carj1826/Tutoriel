@@ -64,6 +64,22 @@ Maintenant que la différence entre les listes et les tuples et leurs utilisatio
   
 ## Transférer les connaissances à d'autres contextes pouvant bénéficier du contenu du tutoriel par des cas d'utilisation ou des illustrations
 
+``` Python
+#Exemple 1
+# Création d'un dictionnaire qui contient les notes des étudiants
+Notes = { ('Joany', 'Finance'):90,
+          ('Eve', 'RH'):85,
+          ('Jade', 'Marketing'):80}
+
+# Avoir accès aux notes des étudiants
+print("Note de Joany en Finance:", Notes[('Joany', 'Finance')])
+#Affichera: 90
+
+#Ajouter une nouvelle note
+Notes[('Joany', 'RH')]=85
+print("Note de Joany en RH:", Notes[('Joany', 'RH')])
+#Affichera: 85
+```
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
