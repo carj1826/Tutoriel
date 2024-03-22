@@ -21,7 +21,7 @@ Les données sont maintenant stocké en liste et en tuple ce qui permet à la co
 
 ## Présenter de façon structurée et illustrer le contenu du tutoriel
 Il y a plusieurs différences entre une liste et un tuple et plusieurs façon pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [] alors que les tuples sont défini avec des parenthèse (). 
-Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifiés après leurs création (Source). Voici un exemple pour représenter cette deuxième différence:
+#Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifiés après leurs création (Source). Voici un exemple pour représenter cette deuxième différence:
 
 ``` Python
 #Modification d'un élément de la liste
@@ -42,8 +42,8 @@ print(Liste)    #Affichera: ['Client5', 'Client2', 'Client3', 'Client4', 'Client
 #Tuple.append("Client6") #Cela va encore créer une erreur; AttributeError: 'tuple' object
                             # has no attribute 'append'
 ``` 
-Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code.
-La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifier fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importantes qui ne doit pas être modifié, alors on utilise un tuple.
+#Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code. C'est la même chose pour l'ajout d'un élément. Dans la liste on peut facilement le faire avec l'attribut .append alors que ça crée une erreur pour le tuple. 
+#La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifier fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importantes qui ne doit pas être modifié, alors on utilise un tuple.
 La dernière différence est la performance d'un tuple comparé à une liste. En général, les tuples sont plus rapides que les listes à cause de leur immuabilité. (Source)
 Une fois la liste et le tuple créer, la compagnie peut accéder à ses données de la même façon avec la fonction print:
 
