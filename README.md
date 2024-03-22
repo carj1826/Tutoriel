@@ -1,7 +1,7 @@
 # Tutoriel: Quelles sont les différences entre une liste et un tuple : pourquoi et comment les utiliser ?
 
 ## Établir le contexte de la problématique d'affaires ou technique menant au tutoriel
-# Au 21e siècle, bien savoir utiliser la technologie dans le monde des affaires peux être un avantage considérable par rapport à la compétition, mais peux aussi amener plusieurs enjeux. Par exemple, choisir la structure de données approprié pour stocker et manipuler les données d'affaires est très important pour le bon focntionnement de n'importe quel entreprise. Deux de ces structures en Python sont les listes et le tulpes et savoir les différencier permet de choisir la structure la plus approprié et rendre l'accès et la manipulation aux données d'affaires beaucoup plus simple pour le future.
+### Au 21e siècle, bien savoir utiliser la technologie dans le monde des affaires peux être un avantage considérable par rapport à la compétition, mais peux aussi amener plusieurs enjeux. Par exemple, choisir la structure de données approprié pour stocker et manipuler les données d'affaires est très important pour le bon focntionnement de n'importe quel entreprise. Deux de ces structures en Python sont les listes et le tulpes et savoir les différencier permet de choisir la structure la plus approprié et rendre l'accès et la manipulation aux données d'affaires beaucoup plus simple pour le future.
 
 # Pour ce tutoriel, les conaissances préalables nécessaires sont:
 - Une connaissance de base en Pyhton.
