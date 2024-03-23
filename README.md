@@ -111,18 +111,21 @@ for commande in Commandes_liste:
 ```
 Dans cet exemple, nous commençons avec nos données de commandes stockés dans des tuples dans la variable "Commandes_des_clients" et nous les transformont en listes avec la fonction "list". Par la suite, les commandes sont modifiables puisqu'elle sont maintenant stocker dans des listes qui elles peuvent être modifiées comme présenté dans l'exemple.
 
+Ces deux exemples sont facilement applicapbles et répétables dans n'importe quel contexte.
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
 - Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussés pour pouvoir bien manipuler les données.
-- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliqué dans ce tutoriel, mais qui sont très utiles pour la manipulation de données. 
+- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliqué en détails dans ce tutoriel, mais qui sont très utiles pour la manipulation de données.
+
+Les prochaines étapes d'apprentissage:
+- Explorer d'autres structures de données comme les ensembles et les dictionnaires et leurs utilisations dans différents contextes vont aider à avoir une meilleure compréhension de la manipulation de données.
+- Explorer des techniques plus avancé de manipulation de données comme des fonctions et différents bibliothèques vont permettre de pouvoir accomplir des manipulations de données plus compliqués.
+- Prendre ces connaissances et les appliqués à des projets réels est la meilleure façon de les développer et d'apprendre d'avantage. 
 
 ## Synthétiser le contenu du tutoriel
-- Revenir brièvement sur la problématique d'origine
-- Revenir brièvement sur les concepts clés et leur utilisation
-- Souligner la valeur personnelle au lecteur du tutoriel
-- Indiquer les prochaines notions ou étapes d'apprentissage dans la perspective de parcours
 
+En conclusion, il est de plus en plus important avec l'avancement technologique de choisir les bonnes structures de données pour stocker les informations dans le monde des affaires. Dans ce tutoriel, les différences entre les listes et les tuples ont été abordé à l'aide d'explications et d'exemples. Les concepts clées qui ont été abordés sont leurs mutabilités, leurs syntaxtes et leurs utilisations appropriés. Ce tutoriel permet au lecteur de savoir quand utiliser des listes ou des tuples et lui permet d'approfondir ses conaissances et de créer des codes plus robustes. Les prochaines notions intéressantes pour le lecteur serait de découvrir les autres structures de données, les différentes bibliothèques et les fonctions plus avancés en python pour pouvoir effectuer des codes dans n'importe quel contexte. 
 
 Sources:
 https://www.docstring.fr/glossaire/tuple/#:~:text=La%20diff%C3%A9rence%20fondamentale%20entre%20les,pouvez%20pas%20modifier%20leurs%20%C3%A9l%C3%A9ments.
