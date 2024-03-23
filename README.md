@@ -83,6 +83,8 @@ print("Note de Joany en RH:", Notes[('Joany', 'RH')])
 ```
 Premièrement, il faut créer un dictionnaire en utilisant des accolades {} et en prenant des tuples comme clées du dictionnaire. Ici un exemple de tuple est ('Joany', 'Finance') et sa valeur est de 90. Les tuples offrent l'avantage de pouvoir représenter des paires de données uniques, ce qui les rend utiles dans ce cas. Ensuite, pour avoir accès aux notes on utilise les tuples pour afficher la note. Finalement, on peut ajouter de nouvelles notes lorsque les examens sont corrigés en ajoutant un nouveau tuple avec sa valeur au dictionnaire. 
 
+Un autre exemple pour appliqué le contenu du tutoriel à un autre contexte serait dans ce cas ci un magasin qui vend des articles scolaires. Ce magasin stock les données des commandes des clients sous forme de tuples qui contiennent le nom du client, les effets scolaires commandés et le coût de la commande. Pour que ça soit plus simple pour le magasin d'ajouter, supprimer ou modifiés les éléments de la commande, on peut modifier des tuples en listes comme dans cet exemple:
+
 ``` Python
 #Exemple 2
 #Données sur les commandes des clients sous forme de tuple
@@ -107,6 +109,8 @@ for commande in Commandes_liste:
 # ['Eve', ['Agenda', 'Stylo'], 15]
 # ['Jade', ['Agenda', 'Surligneur', 'Calculatrice'], 20]
 ```
+Dans cet exemple, nous commençons avec nos données de commandes stockés dans des tuples dans la variable "Commandes_des_clients" et nous les transformont en listes avec la fonction "list". Par la suite, les commandes sont modifiables puisqu'elle sont maintenant stocker dans des listes qui elles peuvent être modifiées comme présenté dans l'exemple.
+
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
