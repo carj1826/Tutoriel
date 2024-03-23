@@ -81,9 +81,9 @@ Notes[('Joany', 'RH')]=85
 print("Note de Joany en RH:", Notes[('Joany', 'RH')])
 #Affichera: 85
 ```
-Premièrement, il faut créer un dictionnaire en utilisant des accolades {} et en prenant des tuples comme clées du dictionnaire. Ici un exemple de tuple est ('Joany', 'Finance') et sa valeur est de 90. Les tuples offrent l'avantage de pouvoir représenter des paires de données uniques, ce qui les rend utiles dans ce cas. Ensuite, pour avoir accès aux notes on utilise les tuples pour afficher la note. Finalement, on peut ajouter de nouvelles notes lorsque les examens sont corrigés en ajoutant un nouveau tuple avec sa valeur au dictionnaire. 
+Premièrement, il faut créer un dictionnaire en utilisant des accolades { } et en prenant des tuples comme clés du dictionnaire. Ici un exemple de tuple est ('Joany', 'Finance') et sa valeur est de 90. Les tuples offrent l'avantage de pouvoir représenter des paires de données uniques, ce qui les rend utiles dans ce cas. Ensuite, pour avoir accès aux notes, on utilise les tuples pour afficher la note. Finalement, on peut ajouter de nouvelles notes lorsque les examens sont corrigés en ajoutant un nouveau tuple avec sa valeur au dictionnaire. 
 
-Un autre exemple pour appliqué le contenu du tutoriel à un autre contexte serait dans ce cas ci un magasin qui vend des articles scolaires. Ce magasin stock les données des commandes des clients sous forme de tuples qui contiennent le nom du client, les effets scolaires commandés et le coût de la commande. Pour que ça soit plus simple pour le magasin d'ajouter, supprimer ou modifiés les éléments de la commande, on peut modifier des tuples en listes comme dans cet exemple:
+Un autre exemple pour appliquer le contenu du tutoriel à un autre contexte serait dans ce cas-ci un magasin qui vend des articles scolaires. Ce magasin stocke les données des commandes des clients sous forme de tuples qui contiennent le nom du client, les effets scolaires commandés et le coût de la commande. Pour que ça soit plus simple pour le magasin d'ajouter, supprimer ou modifier les éléments de la commande, on peut modifier des tuples en listes comme dans cet exemple:
 
 ``` Python
 #Exemple 2
@@ -109,24 +109,23 @@ for commande in Commandes_liste:
 # ['Eve', ['Agenda', 'Stylo'], 15]
 # ['Jade', ['Agenda', 'Surligneur', 'Calculatrice'], 20]
 ```
-Dans cet exemple, nous commençons avec nos données de commandes stockés dans des tuples dans la variable "Commandes_des_clients" et nous les transformont en listes avec la fonction "list". Par la suite, les commandes sont modifiables puisqu'elle sont maintenant stocker dans des listes qui elles peuvent être modifiées comme présenté dans l'exemple.
+Dans cet exemple, nous commençons avec nos données de commandes stockées dans des tuples dans la variable "Commandes_des_clients" et nous les transformons en listes avec la fonction "list". Par la suite, les commandes sont modifiables puisqu'elles sont maintenant stockées dans des listes qui elles peuvent être modifiées comme présenté dans l'exemple.
 
-Ces deux exemples sont facilement applicapbles et répétables dans n'importe quel contexte.
+Ces deux exemples sont facilement applicables et répétables dans n'importe quel contexte.
 
 ## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
-- Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussés pour pouvoir bien manipuler les données.
-- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliqué en détails dans ce tutoriel, mais qui sont très utiles pour la manipulation de données.
+- Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussées pour pouvoir bien manipuler les données.
+- Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliquées en détail dans ce tutoriel, mais qui sont très utiles pour la manipulation de données.
 
 Les prochaines étapes d'apprentissage:
-- Explorer d'autres structures de données comme les ensembles et les dictionnaires et leurs utilisations dans différents contextes vont aider à avoir une meilleure compréhension de la manipulation de données.
-- Explorer des techniques plus avancé de manipulation de données comme des fonctions et différents bibliothèques vont permettre de pouvoir accomplir des manipulations de données plus compliqués.
-- Explorer comment importer des données en listes ou tuples d'un document json, csv ou même d'un excel.
-- Prendre ces connaissances et les appliqués à des projets réels est la meilleure façon de les développer et d'apprendre d'avantage. 
+- Explorer d'autres structures de données comme les ensembles et les dictionnaires et leur utilisation dans différents contextes vont aider à avoir une meilleure compréhension de la manipulation de données.
+- Explorer des techniques plus avancées de manipulation de données comme des fonctions et différentes bibliothèques vont permettre de pouvoir accomplir des manipulations de données plus compliquées.
+- Explorer comment importer des données en listes ou tuples d'un document json, csv ou même d'un Excel.
+- Prendre ces connaissances et les appliquer à des projets réels est la meilleure façon de les développer et d'apprendre davantage. 
 
 ## Synthétiser le contenu du tutoriel
-
-En conclusion, il est de plus en plus important avec l'avancement technologique de choisir les bonnes structures de données pour stocker les informations dans le monde des affaires. Dans ce tutoriel, les différences entre les listes et les tuples ont été abordé à l'aide d'explications et d'exemples. Les concepts clées qui ont été abordés sont leurs mutabilités, leurs syntaxtes et leurs utilisations appropriés. Ce tutoriel permet au lecteur de savoir quand utiliser des listes ou des tuples et lui permet d'approfondir ses conaissances et de créer des codes plus robustes. Les prochaines notions intéressantes pour le lecteur serait de découvrir les autres structures de données, les différentes bibliothèques et les fonctions plus avancés en python pour pouvoir effectuer des codes dans n'importe quel contexte. 
+En conclusion, il est de plus en plus important avec l'avancement technologique de choisir les bonnes structures de données pour stocker les informations dans le monde des affaires. Dans ce tutoriel, les différences entre les listes et les tuples ont été abordées à l'aide d'explications et d'exemples. Les concepts clés qui ont été abordés sont leur mutabilité, leur syntaxte et leurs utilisation appropriée. Ce tutoriel permet au lecteur de savoir quand utiliser des listes ou des tuples et lui permet d'approfondir ses connaissances et de créer des codes plus robustes. Les prochaines notions intéressantes pour le lecteur seraient de découvrir les autres structures de données, les différentes bibliothèques et les fonctions plus avancées en python pour pouvoir effectuer des codes dans n'importe quel contexte. 
 
 Sources:
 https://www.docstring.fr/glossaire/tuple/#:~:text=La%20diff%C3%A9rence%20fondamentale%20entre%20les,pouvez%20pas%20modifier%20leurs%20%C3%A9l%C3%A9ments.
