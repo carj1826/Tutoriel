@@ -1,14 +1,14 @@
 # Tutoriel: Quelles sont les différences entre une liste et un tuple : pourquoi et comment les utiliser ?
 
 ## Établir le contexte de la problématique d'affaires ou technique menant au tutoriel
-Au 21e siècle, bien savoir utiliser la technologie dans le monde des affaires peux être un avantage considérable par rapport à la compétition, mais peux aussi amener plusieurs enjeux. Par exemple, choisir la structure de données approprié pour stocker et manipuler les données d'affaires est très important pour le bon focntionnement de n'importe quel entreprise. Deux de ces structures en Python sont les listes et le tulpes et savoir les différencier permet de choisir la structure la plus approprié et rendre l'accès et la manipulation aux données d'affaires beaucoup plus simple pour le future.
+Au 21e siècle, bien savoir utiliser la technologie dans le monde des affaires peut être un avantage considérable par rapport à la compétition, mais peut aussi amener plusieurs enjeux. Par exemple, choisir la structure de données appropriée pour stocker et manipuler les données d'affaires est très important pour le bon fonctionnement de n'importe quelle entreprise. Deux de ces structures en Python sont les listes et les tulpes et savoir les différencier permet de choisir la structure la plus appropriée et rendre l'accès et la manipulation aux données d'affaires beaucoup plus simple pour le futur.
 
 # Pour ce tutoriel, les conaissances préalables nécessaires sont:
-- Une connaissance de base en Pyhton.
+- Une connaissance de base en Python.
 - Une compréhension des concepts de variables, de types de données et de structures de contrôle serait également bénéfique.
   
 ## Bâtir un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
-Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes infromations comme leur liste de clients, leur lise d'employés et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. Par exemple, la compagnie peut elle même créer une liste ou un tuple pour stocker sa liste de client:
+Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes informations comme leur liste de clients, leur lise d'employés et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. Par exemple, la compagnie peut elle-même créer une liste ou un tuple pour stocker sa liste de client:
 
 ``` Python 
 #Création du tuple
@@ -17,12 +17,12 @@ Tuple = ("Client1","Client2","Client3","Client4")
 #Création de la liste
 Liste = ["Client1","Client2","Client3","Client4"]
 ```
-Les données sont maintenant stocké en liste et en tuple ce qui permet à la compagnie de manipuler ses données quand elle en a besoin. 
+Les données sont maintenant stockées en liste et en tuple, ce qui permet à la compagnie de manipuler ces données quand elle en a besoin. 
 
 ## Présenter de façon structurée et illustrer le contenu du tutoriel
-Il y a plusieurs différences entre une liste et un tuple et plusieurs façon pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [] alors que les tuples sont défini avec des parenthèse (). 
+Il y a plusieurs différences entre une liste et un tuple et plusieurs façons pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [ ] alors que les tuples sont définis avec des parenthèses ( ). 
 
-Deuxièmement, la différence qui vient déterminer quel structure est la plus approprié est leur mutabilité. Les listes peuvent être modifiés, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leurs création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifiés après leurs création (Source). Voici un exemple pour représenter cette deuxième différence:
+Deuxièmement, la différence qui vient déterminer quelle structure est la plus appropriée est leur mutabilité. Les listes peuvent être modifiées, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leur création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifier après leur création (Source). Voici un exemple pour représenter cette deuxième différence:
 
 ``` Python
 #Modification d'un élément de la liste
@@ -43,13 +43,13 @@ print(Liste)    #Affichera: ['Client5', 'Client2', 'Client3', 'Client4', 'Client
 #Tuple.append("Client6") #Cela va encore créer une erreur; AttributeError: 'tuple' object
                             # has no attribute 'append'
 ``` 
-Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaye de modifier un élément dans le tuple, cela crée une erreur dans le code. C'est la même chose pour l'ajout d'un élément. Dans la liste, on peut facilement le faire avec l'attribut .append qui va ajouter "Client6" à la fin, alors que ça crée une erreur pour le tuple. 
+Comme on peut voir dans cet exemple, on peut facilement modifier un élément de la liste (Client1) par un nouveau (Client5). Cependant, on ne peut pas dire la même chose pour le tuple, car lorsqu'on essaie de modifier un élément dans le tuple, cela crée une erreur dans le code. C'est la même chose pour l'ajout d'un élément. Dans la liste, on peut facilement le faire avec l'attribut .append qui va ajouter "Client6" à la fin, alors que ça crée une erreur pour le tuple. 
 
-La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifier fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importantes qui ne doit pas être modifié, alors on utilise un tuple.
+La troisième différence, qui découle de la deuxième, est l'utilisation des listes et des tuples. Il est mieux d'utiliser une liste lorsque ce sont des données que nous allons vouloir modifier dans le futur et utiliser un tuple quand ce sont des données qui ne doivent pas être modifiées. Pour notre exemple de compagnie d'investissement, si la liste de client doit être modifiée fréquemment pour ajouter et retirer des clients, alors il est mieux de la stocker dans une liste. Si c'est une liste très importante qui ne doit pas être modifiée, alors on utilise un tuple.
 
 La dernière différence est la performance d'un tuple comparé à une liste. En général, les tuples sont plus rapides que les listes à cause de leur immuabilité. (Source)
 
-Une fois la liste et le tuple créer, la compagnie peut accéder à ses données de la même façon avec la fonction print:
+Une fois la liste et le tuple créé, la compagnie peut accéder à ces données de la même façon avec la fonction "print":
 
 ``` Python
 # Accéder aux éléments dans la liste et le tuple
@@ -57,13 +57,13 @@ print("Éléments de la liste :", Liste[0])    # Affichera :Client5
 print("Éléments du tuple :", Tuple[1])      # Affichera : Client2
 ```
 
-Maintenant que la différence entre les listes et les tuples et leurs utilisation est expliqué voici des bonnes pratiques et astuces pour la manipulation efficace des données:
-- Utilisez des noms de variables significatifs pour se retrouver plus facilement dans son code. S'il y a plusieurs liste ou tuples dans un code, les identifiez selon ce que contient la liste ou le tuple peut rendre la manipulation des données plus simple par la suite (S02 du cours).
-- Utilisez des listes pour des données qui doivent être facilement et régulièrement modifié.
-- Utilisez des tuples pour des données qui ne doivent pas être accidentellement modifié.
+Maintenant que la différence entre les listes et les tuples et leur utilisation sont expliquées, voici des bonnes pratiques et astuces pour la manipulation efficace des données:
+- Utiliser des noms de variables significatifs pour se retrouver plus facilement dans son code. S'il y a plusieurs listes ou tuples dans un code, les identifier selon ce que contient la liste ou le tuple peut rendre la manipulation des données plus simple par la suite (S02 du cours).
+- Utiliser des listes pour des données qui doivent être facilement et régulièrement modifiées.
+- Utiliser des tuples pour des données qui ne doivent pas être accidentellement modifiées.
   
 ## Transférer les connaissances à d'autres contextes pouvant bénéficier du contenu du tutoriel par des cas d'utilisation ou des illustrations
-Une façon d'utiliser les tuples est de les utiliser comme clées d'un dictionnaire. Un dictionnaire est une autre structure de donnée que ne sera pas abordé en profondeur dans ce tutoriel. Voici un exemple ou l'on veut avoir accès aux notes de différents étudiants dans différentes matières. 
+Une façon d'utiliser les tuples est de les utiliser comme clés d'un dictionnaire. Un dictionnaire est une autre structure de données qui ne sera pas abordée en profondeur dans ce tutoriel. Voici un exemple où l'on veut avoir accès aux notes de différents étudiants dans différentes matières. 
 
 ``` Python
 #Exemple 1
@@ -121,6 +121,7 @@ Voici quelques limites du tutoriel:
 Les prochaines étapes d'apprentissage:
 - Explorer d'autres structures de données comme les ensembles et les dictionnaires et leurs utilisations dans différents contextes vont aider à avoir une meilleure compréhension de la manipulation de données.
 - Explorer des techniques plus avancé de manipulation de données comme des fonctions et différents bibliothèques vont permettre de pouvoir accomplir des manipulations de données plus compliqués.
+- Explorer comment importer des données en listes ou tuples d'un document json, csv ou même d'un excel.
 - Prendre ces connaissances et les appliqués à des projets réels est la meilleure façon de les développer et d'apprendre d'avantage. 
 
 ## Synthétiser le contenu du tutoriel
