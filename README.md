@@ -58,7 +58,7 @@ print("Éléments du tuple :", Tuple[1])      # Affichera : Client2
 ```
 
 Maintenant que la différence entre les listes et les tuples et leur utilisation sont expliquées, voici des bonnes pratiques et astuces pour la manipulation efficace des données:
-- Utiliser des noms de variables significatifs pour se retrouver plus facilement dans son code. S'il y a plusieurs listes ou tuples dans un code, les identifier selon ce que contient la liste ou le tuple peut rendre la manipulation des données plus simple par la suite (S02 du cours).
+- Utiliser des noms de variables significatifs pour se retrouver plus facilement dans son code. S'il y a plusieurs listes ou tuples dans un code, les identifier selon ce que contient la liste ou le tuple peut rendre la manipulation des données plus simple par la suite (Daniel Chamberland-Tremblay, Bonnes pratiques de base de programmation en Python).
 - Utiliser des listes pour des données qui doivent être facilement et régulièrement modifiées.
 - Utiliser des tuples pour des données qui ne doivent pas être accidentellement modifiées.
   
@@ -128,4 +128,7 @@ Les prochaines étapes d'apprentissage:
 En conclusion, il est de plus en plus important avec l'avancement technologique de choisir les bonnes structures de données pour stocker les informations dans le monde des affaires. Dans ce tutoriel, les différences entre les listes et les tuples ont été abordées à l'aide d'explications et d'exemples. Les concepts clés qui ont été abordés sont leur mutabilité, leur syntaxte et leurs utilisation appropriée. Ce tutoriel permet au lecteur de savoir quand utiliser des listes ou des tuples et lui permet d'approfondir ses connaissances et de créer des codes plus robustes. Les prochaines notions intéressantes pour le lecteur seraient de découvrir les autres structures de données, les différentes bibliothèques et les fonctions plus avancées en python pour pouvoir effectuer des codes dans n'importe quel contexte. 
 
 Sources:
+
 Docstring, Les tuples en Python, 18 mars 2024, https://www.docstring.fr/glossaire/tuple/#:~:text=La%20diff%C3%A9rence%20fondamentale%20entre%20les,pouvez%20pas%20modifier%20leurs%20%C3%A9l%C3%A9ments.
+
+Daniel Chamberland-Tremblay, Bonnes pratiques de base de programmation en Python, gta431s02-variables-controle-et-logique-carj1826/bonnes_pratiques.md
