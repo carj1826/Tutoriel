@@ -8,7 +8,7 @@ Pour ce tutoriel, les conaissances préalables nécessaires sont:
 - Une compréhension des concepts de variables, de types de données et de structures de contrôle serait également bénéfique.
   
 ## Un exemple pour introduire le contenu du tutoriel en contexte de manipulation des données
-Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes informations comme leur liste de clients, leur lise d'employés et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. Par exemple, la compagnie peut elle-même créer une liste ou un tuple pour stocker sa liste de client:
+Si nous prenons comme exemple une compagnie d'investissement. Cette compagnie doit stocker différentes informations comme leur liste de clients, leur liste d'employés et les différents titres et produits que la compagnie gère. Pour stocker ces informations, la compagnie peut utiliser des listes et des tuples pour ensuite facilement y avoir accès. Par exemple, la compagnie peut elle-même créer une liste ou un tuple pour stocker sa liste de client:
 
 ``` Python 
 #Création du tuple
