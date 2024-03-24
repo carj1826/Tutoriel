@@ -124,7 +124,7 @@ Les prochaines étapes d'apprentissage:
 - Explorer comment importer des données en listes ou tuples d'un document json, csv ou même d'un Excel.
 - Prendre ces connaissances et les appliquer à des projets réels est la meilleure façon de les développer et d'apprendre davantage. 
 
-## Synthétiser le contenu du tutoriel
+## Synthèse
 En conclusion, il est de plus en plus important avec l'avancement technologique de choisir les bonnes structures de données pour stocker les informations dans le monde des affaires. Dans ce tutoriel, les différences entre les listes et les tuples ont été abordées à l'aide d'explications et d'exemples. Les concepts clés qui ont été abordés sont leur mutabilité, leur syntaxte et leurs utilisation appropriée. Ce tutoriel permet au lecteur de savoir quand utiliser des listes ou des tuples et lui permet d'approfondir ses connaissances et de créer des codes plus robustes. Les prochaines notions intéressantes pour le lecteur seraient de découvrir les autres structures de données, les différentes bibliothèques et les fonctions plus avancées en python pour pouvoir effectuer des codes dans n'importe quel contexte. 
 
 Sources:
