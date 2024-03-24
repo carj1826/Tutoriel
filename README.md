@@ -113,7 +113,7 @@ Dans cet exemple, nous commençons avec nos données de commandes stockées dans
 
 Ces deux exemples sont facilement applicables et répétables dans n'importe quel contexte.
 
-## Énoncer les limites du tutoriel et les prochaines étapes d'apprentissage
+## Limites du tutoriel et les prochaines étapes d'apprentissage
 Voici quelques limites du tutoriel:
 - Les exemples fournis sont assez simples pour qu'ils puissent être compris facilement et appliqués à plusieurs situations. Cependant, certaines situations vont demander des connaissances plus poussées pour pouvoir bien manipuler les données.
 - Il y a d'autres structures de données importantes en Python comme les ensembles et les dictionnaires qui ne sont pas expliquées en détail dans ce tutoriel, mais qui sont très utiles pour la manipulation de données.
