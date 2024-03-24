@@ -62,7 +62,7 @@ Maintenant que la différence entre les listes et les tuples et leur utilisation
 - Utiliser des listes pour des données qui doivent être facilement et régulièrement modifiées.
 - Utiliser des tuples pour des données qui ne doivent pas être accidentellement modifiées.
   
-## Transférer les connaissances à d'autres contextes pouvant bénéficier du contenu du tutoriel par des cas d'utilisation ou des illustrations
+## Transfère des connaissances à d'autres contextes 
 Une façon d'utiliser les tuples est de les utiliser comme clés d'un dictionnaire. Un dictionnaire est une autre structure de données qui ne sera pas abordée en profondeur dans ce tutoriel. Voici un exemple où l'on veut avoir accès aux notes de différents étudiants dans différentes matières. 
 
 ``` Python
