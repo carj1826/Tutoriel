@@ -19,7 +19,7 @@ Liste = ["Client1","Client2","Client3","Client4"]
 ```
 Les données sont maintenant stockées en liste et en tuple, ce qui permet à la compagnie de manipuler ces données quand elle en a besoin. 
 
-## Présenter de façon structurée et illustrer le contenu du tutoriel
+## Présentation et illustration du contenu du tutoriel
 Il y a plusieurs différences entre une liste et un tuple et plusieurs façons pour les utiliser. Premièrement, en regardant l'exemple plus haut de création d'une liste et d'un tuple, la première différence est la syntaxe. Les listes sont définies avec des crochets [ ] alors que les tuples sont définis avec des parenthèses ( ). 
 
 Deuxièmement, la différence qui vient déterminer quelle structure est la plus appropriée est leur mutabilité. Les listes peuvent être modifiées, ce qui veut dire qu'on peut supprimer, ajouter et modifier les éléments dans des listes après leur création. Au contraire, les tuples sont immuables, ce qui veut dire qu'on ne peut pas les modifier après leur création (Docstring, Les tuples en Python). Voici un exemple pour représenter cette deuxième différence:
